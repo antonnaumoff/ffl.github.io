@@ -1,0 +1,13 @@
+div.root-cont{
+    background: blanchedalmond;
+}
+
+
+div.button-panel button{
+    width:24.5%;
+}
+
+div.main-frame{
+    height: 85vh;
+    background: beige;
+}
