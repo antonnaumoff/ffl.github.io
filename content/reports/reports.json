@@ -1,0 +1,29 @@
+{
+  "reports": [
+    {
+      "date": "17-02-2017",
+      "text": "We have made 15 000 servings. Your donations was   30 000 UAH.",
+      "total": 30000
+    },
+    {
+      "date": "10-02-2017",
+      "text": "We have made 17 000 servings. Your donations was   34 000 UAH.",
+      "total": 34000
+    },
+    {
+      "date": "03-02-2017",
+      "text": "We have made 10 000 servings. Your donations was   20 000 UAH.",
+      "total": 20000
+    },
+    {
+      "date": "27-01-2017",
+      "text": "We have made 15 000 servings. Your donations was   30 000 UAH.",
+      "total": 30000
+    },
+    {
+      "date": "20-01-2017",
+      "text": "We have made 13 000 servings. Your donations was   26 000 UAH.",
+      "total": 26000
+    }
+  ]
+}

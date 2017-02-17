@@ -10,25 +10,29 @@ const routing = ($stateProvider, $urlRouterProvider) => {
 
     $stateProvider
         .state('home', {
-            abstract: true,
-            templateUrl: homeTemplate
+            templateUrl: homeTemplate,
+            controller: "HomeController as home"
         })
         .state('home.about', {
+            parent: 'home',
             url: "/about",
             templateUrl: aboutTemplate,
             controller: 'AboutController as about'
         })
         .state('home.news', {
+            parent: 'home',
             url: "/news",
             templateUrl: newsTemplate,
             controller: 'NewsController as news'
         })
         .state('home.reports', {
+            parent: 'home',
             url: "/reports",
             templateUrl: reportsTemplate,
             controller: 'ReportsController as reports'
         })
         .state('home.help', {
+            parent: 'home',
             url: "/helpUs",
             templateUrl: helpTemplate,
             controller: 'HelpController as help'

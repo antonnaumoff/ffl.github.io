@@ -1,3 +1,5 @@
+import './news.css'
+
 export default class NewsController {
     /* @ngInject */
     constructor(){

@@ -1,8 +1,10 @@
+import content from '../../../content/help/help.json';
+
 export default class HelpController {
     /* @ngInject */
     constructor(){
 
-        this.message = 'This is my helpPage';
+        this.message = content.text;
 
     }
 }

@@ -2,12 +2,20 @@ div.root-cont{
     background: blanchedalmond;
 }
 
+div.main-frame{
+    overflow: auto;
+}
+
 
 div.button-panel button{
     width:24.5%;
 }
 
 div.main-frame{
-    height: 85vh;
+    height: 70vh;
     background: beige;
+}
+
+span.reports-button-info{
+    font-size: 14px;
 }

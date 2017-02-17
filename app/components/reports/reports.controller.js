@@ -1,8 +1,10 @@
+import reports from '../../../content/reports/reports.json';
+
 export default class ReportsController {
     /* @ngInject */
     constructor(){
 
-        this.message = 'This is my reports page';
+        this.reports = reports.reports;
 
     }
 }

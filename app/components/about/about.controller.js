@@ -1,8 +1,10 @@
+import content from '../../../content/about/about.json';
+
 export default class AboutController {
     /* @ngInject */
     constructor(){
 
-        this.message = 'This is my aboutPage';
+        this.message = content.text;
 
     }
 }
