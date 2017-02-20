@@ -1,0 +1,22 @@
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 button-panel">
+                <button type="button" class="btn btn-primary btn-lg" ui-sref="home.about">About</button>
+                <button type="button" class="btn btn-danger btn-lg" ui-sref="home.news">News</button>
+                <button type="button" class="btn btn-warning btn-lg" ui-sref="home.reports">
+                    <span>Reports</span>
+                    <span class="reports-button-info">{{home.report.date}}  {{home.report.total}}</span>
+                </button>
+                <button type="button" class="btn btn-success btn-lg" ui-sref="home.help">Help</button>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 main-frame">
+            <section ui-view></section>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
