@@ -12,7 +12,7 @@ let config = {
     context: `${__dirname}/app`,
     entry: './app.module.js',
     output: {
-        path: `./public`,
+        path: `./dist`,
         filename: 'bundle.js'
     },
     resolve: {
@@ -64,7 +64,7 @@ let config = {
     ],
     devServer: {
         host: 'localhost',
-        port: '8080',
+        port: '8081',
         contentBase: './public'
     }
 };
