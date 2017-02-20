@@ -65,7 +65,7 @@ let config = {
     devServer: {
         host: 'localhost',
         port: '8081',
-        contentBase: './public'
+        contentBase: './dist'
     }
 };
 
